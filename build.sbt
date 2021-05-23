@@ -24,6 +24,6 @@ organization := "com.typesafe.sbt"
 
 version := "0.6.4-SNAPSHOT"
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.0")
+addSbtPlugin("com.typesafe.sbt" % "sbt-git" % "1.0.1")
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.3.3")
