@@ -3,8 +3,9 @@ package sbtghpages
 
 import sbt._
 import Keys._
-import com.typesafe.sbt.SbtGit.GitKeys
-import com.typesafe.sbt.git.GitRunner
+import com.github.sbt.git.SbtGit.GitKeys
+import com.github.sbt.git.GitPlugin
+import com.github.sbt.git.GitRunner
 import GitKeys.{gitBranch, gitRemoteRepo}
 import com.typesafe.sbt.site.SitePlugin
 import scala.util.control.NonFatal
