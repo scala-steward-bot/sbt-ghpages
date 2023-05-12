@@ -20,7 +20,7 @@ organization := "com.github.sbt"
 
 addSbtPlugin("com.github.sbt" % "sbt-git" % "2.0.1")
 
-addSbtPlugin("com.typesafe.sbt" % "sbt-site" % "1.4.1")
+addSbtPlugin("com.github.sbt" % "sbt-site" % "1.5.0")
 
 homepage := Some(url("https://github.com/sbt/sbt-ghpages"))
 
