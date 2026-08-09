@@ -20,7 +20,7 @@ organization := "com.github.sbt"
 
 addSbtPlugin("com.github.sbt" % "sbt-git" % "2.0.1")
 
-addSbtPlugin("com.github.sbt" % "sbt-site" % "1.7.0")
+addSbtPlugin("com.github.sbt" % "sbt-site" % "1.8.0")
 
 scalacOptions ++= {
   scalaBinaryVersion.value match {
